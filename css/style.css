@@ -24,3 +24,22 @@ header {
   align-items: center;
   padding: 2rem, 3rem;
 }
+
+.logo{
+  width: 20px;
+}
+
+.logo img{
+  width: 10rem;
+}
+
+nav{
+  width: 60%;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0 2rem;
+}
