@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem, 3rem;
+  padding: 2rem 3rem;
 }
 
 .logo{
@@ -66,7 +66,7 @@ nav ul li a{
   align-items: center;
   gap: 0.8rem;
   width: 20%;
- justify-self: flex-end;
+ justify-content: end;
 }
 
 .profile-container .profile-information{
