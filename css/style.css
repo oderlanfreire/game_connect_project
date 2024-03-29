@@ -26,7 +26,7 @@ header {
 }
 
 .logo{
-  width: 20px;
+  width: 20%;
 }
 
 .logo img{
@@ -43,3 +43,49 @@ nav ul{
   gap: 3rem;
   margin: 0 2rem;
 }
+
+
+.selected-item{
+  width: 100%;
+  background: linear-gradient(90deg, #0393a5 0%, #29d44e 46%, #087a88 100%);
+  height: 6px;
+  margin-top: 0.6rem;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.disabled{
+  color: #434447;
+}
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 20%;
+ justify-self: flex-end;
+}
+
+.profile-container .profile-information{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.profile-container .profile-information .status-container{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 14px;
+}
+
+.profile-container .profile-information .status-container .status-icon{
+  width: 16px;
+  height: 16px;
+  background-color: #29D44E;
+  border-radius: 50%;
+}
+
